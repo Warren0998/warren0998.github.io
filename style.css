@@ -1,0 +1,274 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* CODING STARTS HERE */
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+/* NAV AND BANNER */
+html,body {
+  background-color:#ffff;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+.social-top {
+  margin-top: 0%;
+  height:50px;
+  width:100%;
+  background: rgba(54,234,247,1);
+  background: rgba(54,234,247,1);
+  background: -moz-linear-gradient(-45deg, rgba(54,234,247,1) 0%, rgba(14,246,149,1) 0%, rgba(48,248,171,1) 0%, rgba(255,0,0,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(54,234,247,1)), color-stop(0%, rgba(14,246,149,1)), color-stop(0%, rgba(48,248,171,1)), color-stop(100%, rgba(255,0,0,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(54,234,247,1) 0%, rgba(14,246,149,1) 0%, rgba(48,248,171,1) 0%, rgba(255,0,0,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(54,234,247,1) 0%, rgba(14,246,149,1) 0%, rgba(48,248,171,1) 0%, rgba(255,0,0,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(54,234,247,1) 0%, rgba(14,246,149,1) 0%, rgba(48,248,171,1) 0%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(135deg, rgba(54,234,247,1) 0%, rgba(14,246,149,1) 0%, rgba(48,248,171,1) 0%, rgba(255,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36eaf7', endColorstr='#ff0000', GradientType=1 );
+}
+.social-top li  img {
+  width:35px;
+  height:35px;
+}
+.social-top li {
+  text-decoration: none;
+  list-style: none;
+  padding-top:10px;
+  line-height: 10px;
+  display: inline-block;
+  float:left;
+  margin-left: 0;
+  padding-right:10px;
+}
+.call li {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  padding: 0 10px;
+  line-height: 50px;
+}
+nav {
+  background: rgba(0,0,0,0.79);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 29%, rgba(0,0,0,0.77) 32%, rgba(0,0,0,0.6) 59%, rgba(0,0,0,0.34) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.79)), color-stop(29%, rgba(0,0,0,0.79)), color-stop(32%, rgba(0,0,0,0.77)), color-stop(59%, rgba(0,0,0,0.6)), color-stop(100%, rgba(0,0,0,0.34)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 29%, rgba(0,0,0,0.77) 32%, rgba(0,0,0,0.6) 59%, rgba(0,0,0,0.34) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 29%, rgba(0,0,0,0.77) 32%, rgba(0,0,0,0.6) 59%, rgba(0,0,0,0.34) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 29%, rgba(0,0,0,0.77) 32%, rgba(0,0,0,0.6) 59%, rgba(0,0,0,0.34) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.79) 0%, rgba(0,0,0,0.79) 29%, rgba(0,0,0,0.77) 32%, rgba(0,0,0,0.6) 59%, rgba(0,0,0,0.34) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  height:100px;
+  width:100%;
+}
+nav a {
+  text-decoration: none;
+  line-height: 100px;
+  padding: 0 25px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+}
+nav a:hover {
+  text-decoration: none;
+  color:#00FFB1;
+  border-bottom:rgba(255, 0, 0, 1) solid 4px;
+  border-left:rgba(255, 0, 0, 1) solid 4px;
+  border-right:rgba(255, 0, 0, 1) solid 4px;
+  font-weight: 800;
+  padding: 0 15px;
+  padding-bottom: 5px;
+  transition: all 0.2s ease-in;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul{
+  float:right;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0;
+}
+.site-logo img {
+  width: 200px;
+  height: 100;
+  line-height: 100px;
+  float: left;
+  padding-top: 15px;
+  position: left;
+
+}
+.site-logo img:hover {
+  border-bottom:rgba(255, 0, 0, 1) solid 4px;
+  transition: all 0.2s ease-in;
+}
+.header{
+  background-image:linear-gradient(45deg, rgba(0,0,0,0.0)100%,rgba(0,0,0,1)),url(img/banner2.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+.hero{
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 1140px;
+  top: 40%;
+  color: white;
+  font-size:60px;
+}
+.hero a{
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    font-weight: 400;
+    border-left:rgba(255, 0, 0, 1) solid 4px;
+    border-right:rgba(255, 0, 0, 1) solid 4px;
+    border-bottom:rgba(255, 0, 0, 1) solid 4px;
+    padding: 10px 20px;
+}
+.hero a:hover{
+  text-decoration: none;
+  font-size:20px;
+  color: white;
+  font-weight: 400;
+  border-left:#0EEA89 solid 4px;
+  border-right:#0EEA89 solid 4px;
+  border-bottom:#0EEA89 solid 4px;
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.1);
+  transition: 0.2 ease-in-out;
+}
+.hero p{
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 400;
+    color: #0EEA89;
+}
+
+/* ABOUT */
+.about{
+    height:700px;
+    width: 50%;
+    float: right;
+    text-align: justify;
+    padding: 10px;
+}
