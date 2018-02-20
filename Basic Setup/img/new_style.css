@@ -1,0 +1,18 @@
+body,html {
+            background:url('img/head-nav.jpg') no-repeat center center;
+            background-size:cover;
+            background-attachment: fixed;
+            background-position: right top;
+
+            /* Workaround for some mobile browsers */
+            min-height:100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 0;
+ height: 100%;
+        }
+
+        .navbar {
+                 margin-top: 0px;
+                 margin-bottom: 0px;
+               }
