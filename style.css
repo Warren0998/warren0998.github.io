@@ -197,7 +197,7 @@ footer{
 
 /**SIZES CSS**/
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
       .bg-1 {
         background-color: transparent;
         color: #ffffff;
@@ -214,13 +214,13 @@ footer{
       }
       .bg-1 h3 {
       font-family: 'Open Sans', sans-serif;
-      font-size: 60px !important;
+      font-size: 50px !important;
       font-weight: 800 !important;
       line-height: 1;
     }
       .bg-1 p {
       margin-top: 15px;
-      font-size: 20px !important;
+      font-size: 15px !important;
     }
       .btn-group-lg>.btn, .btn-lg {
         font-size: 18px;
@@ -262,14 +262,30 @@ footer{
         opacity: 1;
         filter: alpha(opacity=50);
       }
-      .bg-2 .about-col-1 img {
-        display: none;
-      }
       .about-col-2 {
         color: white;
         font-size: 15px !important;
         font-weight: normal !important;
       }
+      .bg-2 .resume-col-1 img {
+        margin-top: 30px;
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        filter: alpha(opacity=50);
+      }
+      .resume-col-2 {
+        color: white;
+        font-size: 15px !important;
+        font-weight: normal !important;
+      }
+      .bg-2 .resume-col-2 img {
+        display: none;
+      }
+      .bg-2 .about-col-1 img {
+        display: none;
+      }
+
       .btn-2:hover, .btn-2:focus .btn-2:active {
         color: white;
         font-size: 15px !important;
@@ -392,6 +408,7 @@ footer{
       }
       .copylink{
         color: white;
+        font-size: 15px;
       }
       footer img {
         margin-top:20px;
@@ -404,6 +421,231 @@ footer{
       }
 }
 
-@media (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body, html {
+      background: linear-gradient(0deg, rgba(0, 0, 0, .80), rgba(0, 0, 0, .8)), url('img/head-nav.jpg') no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: top right;
+      }
+      svg[Attributes Style] {
+      x: 0px;
+      y: 0px;
+      width: 100px !important;
+      height: 100px !important;
+      }
+      .bg-1 {
+        background-color: transparent;
+        color: #ffffff;
+        height: 100vh;
+        line-height: 0.8;
+        padding-top: 100px;
+      }
+      .bg-1 img {
+        margin-top: 30px;
+        height: 100px;
+        width: 100px;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+      }
+      .bg-1 h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 100px !important;
+      font-weight: 800 !important;
+      line-height: 1;
+      }
+      .bg-1 p {
+      margin-top: 25px;
+      font-size: 35px !important;
+    }
+      .btn-group-lg>.btn, .btn-lg {
+        font-size: 35px;
+        line-height: 1.3333333;
+        border-radius: 100px;
+      }
+      .bg-1 .btn-default {
+        color: white;
+        font-size: 25px !important;
+        font-weight: normal !important;
+        background: transparent;
+        border-color: white;
+        margin-bottom: 5px;
+        border: 3px solid white;
+      }
+      .btn-default:hover, .btn-default:focus .btn-default:active {
+        color: white;
+        font-size: 35px !important;
+        font-weight: normal !important;
+        background: white;
+        background: rgba(0, 0, 0, 1);
+        border-color: rgba(0, 0, 0, 1);
+        transition: 0.3s;
+      }
+      .bg-1 li{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+
+      .bg-2 {
+        padding-top: 10PX;
+        background-color: white;
+        color: #f6f6f6;
+      }
+      .bg-2 .about-col-2 img {
+        margin-top: 30px;
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        filter: alpha(opacity=50);
+      }
+      .bg-2 .resume-col-1 img {
+        margin-top: 30px;
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        filter: alpha(opacity=50);
+      }
+      .bg-2 .about-col-1 img {
+        display: none;
+      }
+      .about-col-1 {
+        color: white;
+        font-size: 15px !important;
+        font-weight: normal !important;
+      }
+      .btn-2:hover, .btn-2:focus .btn-2:active {
+        color: white;
+        font-size: 15px !important;
+        font-weight: normal !important;
+        background: white;
+        background: rgba(0, 0, 0, 1);
+        border-color: rgba(0, 0, 0, 1);
+        transition: 0.3s;
+      }
+      .bg-2 h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 60px !important;
+        font-weight: 800 !important;
+        line-height: 1;
+        color: #35383B;
+        text-align: center;
+      }
+      .bg-2 p {
+        margin-top: 15px;
+        font-size: 15px !important;
+        color: #202121;
+        padding-bottom: 45px !important;
+        line-height: 1.4;
+      }
+      .bg-2 .btn-default {
+        color: #35383B;
+        font-size: 15px !important;
+        font-weight: normal !important;
+        background: transparent;
+        border-color: #35383B;
+      }
+
+      .bg-3 {
+        padding-top: 10PX;
+        background-color: #141414;
+        color: #f6f6f6;
+        padding-bottom:0 !important;
+      }
+      .bg-3 h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px !important;
+        font-weight: 800 !important;
+        line-height: 1;
+        color: white;
+        text-align: center;
+      }
+      .bg-3 img {
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        filter: alpha(opacity=50);
+      }
+      .col-sm-4 img {
+        height: 100px;
+        width: 100px;
+        opacity: 1;
+        vertical-align: middle;
+      }
+      .col-1 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port1.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+        padding-bottom: 10px;
+      }
+      .col-2 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port2.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top right;
+        padding-bottom: 10px;
+      }
+      .col-3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port3.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top left;
+        padding-bottom: 10px;
+      }
+      line-height: 1.4;
+      }
+      .bg-3 h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px !important;
+        font-weight: 800 !important;
+        line-height: 1;
+        color: white;
+        text-align: center;
+      }
+      .col-sm-4 .btn-default {
+        color: white;
+        font-size: 15px !important;
+        font-weight: normal !important;
+        background: transparent;
+        border-color: white;
+      }
+      .col-sm-4 .btn-default:hover,.col-sm-4 .btn-default:focus, .col-sm-4 .btn-default:active {
+        color: black;
+        font-size: 15px !important;
+        font-weight: normal !important;
+        background: white;
+        border-color: rgba(0, 0, 0, 1);
+        transition: 0.3s;
+      }
+      Footer li{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      footer h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        line-height: 1;
+        color: white;
+        text-align: center;
+      }
+      .copylink{
+        color: white;
+      }
+      footer img {
+        margin-top:20px;
+        margin-bottom:20px;
+        height: 200px;
+        width: 200px;
+        opacity: 1;
+        filter: alpha(opacity=50);
+        margin-top: 0 !important;
+      }
+}
+
 
 @media (max-width: 1199.98px) {}
