@@ -88,7 +88,32 @@ hr {
 }
 
 /*coding here*/
-
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    font-size: 14px;
+    padding: 1em;
+    display: none;
+    z-index: 99999;
+    cursor: pointer;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+      font-family: 'iconfont';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+  }
+  script {
+    display: none;
+}
 input, select {
   vertical-align: middle;
 }
@@ -206,7 +231,6 @@ footer{
         padding-top: 50px;
       }
       .bg-1 img {
-        margin-top: 30px;
         height: 100px;
         width: 100px;
         opacity: 0.5;
@@ -646,6 +670,5 @@ footer{
         margin-top: 0 !important;
       }
 }
-
 
 @media (max-width: 1199.98px) {}
