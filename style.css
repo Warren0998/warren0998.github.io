@@ -135,7 +135,7 @@ body, html {
 
 .wrapper {
   margin: 0 auto;
-  width: 900px;
+  width: 1000px;
 }
 
 .row {
@@ -248,6 +248,13 @@ footer {
   .navbar-brand {
     float: none;
   }
+  .bg-4 img {
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    filter: alpha(opacity=50);
+  }
+
   .bg-1 {
     background-color: transparent;
     color: #ffffff;
@@ -479,6 +486,13 @@ footer {
   .wrapper {
     width: 100%;
   }
+  .bg-4 img {
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    filter: alpha(opacity=50);
+  }
+
   .bg-1 {
     background-color: transparent;
     color: #ffffff;
@@ -497,6 +511,7 @@ footer {
     font-size: 100px !important;
     font-weight: 800 !important;
     line-height: 1;
+
   }
   .bg-1 p {
     margin-top: 25px;
@@ -534,7 +549,7 @@ footer {
   .bg-2 {
     padding-top: 60px;
     padding-bottom: 10px;
-    background-color: white;
+    background-color: #1D2330;
     color: #f6f6f6;
     min-height: 600px;
   }
@@ -697,6 +712,7 @@ footer {
     background-position: top right;
   }
   .navbar-default {
+    padding-top: 30px;
     background: rgba(255, 255, 255, 0.0);
     border-color: #e7e7e7;
   }
@@ -724,33 +740,32 @@ footer {
     display: none;
   }
   .bg-1 h3 {
+    margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 80px !important;
+    font-size: 90px !important;
     font-weight: lighter !important;
     line-height: .9;
   }
   .bg-1 p {
-    font-size: 25px !important;
-    line-height: 55px;
+    font-size: 30px !important;
     text-align: justify;
   }
   .btn-group-lg>.btn, .btn-lg {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.3333333;
-    border-radius: 100px;
   }
   .bg-1 .btn-default {
     color: white;
-    font-size: 15px !important;
+    font-size: 20px !important;
     font-weight: normal !important;
     background: transparent;
     border-color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     margin-top: 10px;
   }
   .btn-default:hover, .btn-default:focus .btn-default:active {
     color: white;
-    font-size: 35px !important;
+    font-size: 20px !important;
     font-weight: normal !important;
     background: white;
     background: rgba(0, 0, 0, 1);
@@ -765,13 +780,13 @@ footer {
   .bg-2 {
     padding-top:0 !important;
     padding-bottom: 0 !important;
-    background-color: white;
+    background-color: #050415;
     color: #f6f6f6;
     min-height: 600px;
     padding: 0 !important;
   }
   .bg-2 .about-col-2 img {
-    margin-top: 30px;
+    margin-top: 60px;
     height: 40px;
     width: 40px;
     opacity: 1;
@@ -814,6 +829,7 @@ footer {
     background-attachment: scroll;
     min-height: 600px;
     padding:0 !important;
+    opacity: 1;
   }
   .btn-2:hover, .btn-2:focus .btn-2:active {
     color: white;
@@ -829,39 +845,46 @@ footer {
     font-size: 60px !important;
     font-weight: 800 !important;
     line-height: 1;
-    color: #35383B;
+    color:white;
     text-align: center;
   }
   .bg-2 p {
+    padding-left: 30px;
     font-family: 'Open Sans';
     margin-top: 15px;
-    font-size: 15px !important;
-    color: #202121;
+    font-size: 20px !important;
+    color: white;
     padding-bottom: 45px !important;
     line-height: 1.4;
-    text-align: left;
+    text-align: justify;
   }
   .bg-2 .btn-default {
-    color: #35383B;
-    font-size: 15px !important;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px !important;
     font-weight: normal !important;
     background: transparent;
-    border-color: #35383B;
+    border-color: white;
+    border: 2px solid;
   }
   .bg-3 {
     padding-top: 50PX;
-    background-color: #141414;
+    background: url('img/portbg.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top right;
     color: #f6f6f6;
     padding-bottom: 0 !important;
-    height: 100vh;
+    min-height: 700px;
   }
   .bg-3 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px !important;
+    font-size: 60px !important;
     font-weight: 800 !important;
     line-height: 1;
     color: white;
     text-align: center;
+    margin-bottom: 50px;
   }
   .bg-3 img {
     height: 40px;
@@ -879,21 +902,24 @@ footer {
     padding: 0 30px 0 30px;
   }
   .col-1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port1.jpg') no-repeat;
+
+    background: linear-gradient(0deg, rgba(0,0,0, .95), rgba(0,0,0, .8)), url('img/port1.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: right;
     padding-bottom: 10px;
   }
   .col-2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port2.jpg') no-repeat;
+
+    background: linear-gradient(0deg, rgba(0,0,0, .95), rgba(0,0,0, .8)), url('img/port2.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: top right;
     padding-bottom: 10px;
   }
   .col-3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8)), url('img/port3.jpg') no-repeat;
+
+    background: linear-gradient(0deg, rgba(0,0,0, .95), rgba(0,0,0, .8)), url('img/port3.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: top left;
@@ -909,19 +935,119 @@ footer {
   }
   .col-sm-4 .btn-default {
     color: white;
+    font-family: 'Open Sans';
     font-size: 12px !important;
     font-weight: normal !important;
     background: transparent;
     border-color: white;
+    border: 2px solid;
   }
   .col-sm-4 .btn-default:hover, .col-sm-4 .btn-default:focus, .col-sm-4 .btn-default:active {
-    color: black;
-    font-size: 15px !important;
+    color: #b7fffe;
+    font-size: 12px !important;
     font-weight: normal !important;
-    background: white;
-    border-color: rgba(0, 0, 0, 1);
+    background: black;
+    border-color: #b7fffe;
     transition: 0.3s;
   }
+
+    .bg-4 img {
+      margin-top: 100px !important;
+      height: 40px;
+      width: 40px;
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    .inner {
+      width: 100%;
+    }
+    .height {
+      min-height: 600px;
+    }
+    .media-container{
+      position: relative;
+    }
+    .about-col-1 {
+      min-height: 600px;
+    }
+    .source-resume{
+      background-image: url('img/resume.jpg');
+      background-repeat: repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: scroll;
+      min-height: 600px;
+      padding:0 !important;
+      opacity: 1;
+    }
+    .btn-4:hover, .btn-4:focus .btn-4:active {
+      color: white;
+      font-size: 15px !important;
+      font-weight: normal !important;
+      background: white;
+      background: rgba(0, 0, 0, 1);
+      border-color: rgba(0, 0, 0, 1);
+      transition: 0.3s;
+    }
+    .bg-4 h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px !important;
+      font-weight: 800 !important;
+      line-height: 1;
+      color: white;
+      text-align: center;
+    }
+    .bg-4 p {
+      padding-right: 30px;
+      font-family: 'Open Sans';
+      margin-top: 15px;
+      font-size: 20px !important;
+      color: white;
+      padding-bottom: 45px !important;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    .bg-4 .btn-default {
+      color: white;
+      font-family: 'Open Sans';
+      font-size: 20px !important;
+      font-weight: normal !important;
+      background: transparent;
+      border-color: white;
+      border: 2px solid;
+    }
+    .bg-4 {
+      padding-top:0 !important;
+      padding-bottom: 0 !important;
+      background-color: #171717;
+      color: white;
+      min-height: 600px;
+      padding: 0 !important;
+    }
+    .bg-4 .about-col-4 img {
+      margin-top: 60px;
+      height: 40px;
+      width: 40px;
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    .bg-4 .resume-col-1 img {
+      margin-top: 30px;
+      height: 40px;
+      width: 40px;
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    .bg-source {
+      position: absolute;
+      top: 0 !important;
+      left: 0 !important;
+      bottom: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      overflow: hidden !important;
+    }
   Footer li {
     display: inline-block;
     margin-bottom: 15px;
