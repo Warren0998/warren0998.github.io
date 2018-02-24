@@ -1125,6 +1125,85 @@ footer {
       padding:0 !important;
       opacity: 1;
     }
+    .source-contact{
+      background:none;
+      background-repeat: repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: scroll;
+      min-height: 600px;
+      padding:0 !important;
+      opacity: 1;
+    }
+    .bg-5 {
+        background: url('img/tele.jpeg') no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: top left;
+      padding-bottom: 10px;
+      padding-top:0 !important;
+      padding-bottom: 0 !important;
+      min-height: 600px;
+      padding: 0 !important;
+    }
+    .bg-5 .resume-col-1 img {
+      margin-top: 100px;
+      height: 40px;
+      width: 40px;
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    .bg-3 {
+      padding-top: 50PX;
+      background: url('img/portbg.jpeg') no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: top right;
+      color: #f6f6f6;
+      padding-bottom: 0 !important;
+      min-height: 700px;
+    }
+    .bg-5 h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px !important;
+      font-weight: 800 !important;
+      line-height: 1;
+      color:white;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .bg-5 .about-col-4 img {
+      margin-top: 100px !important;
+      height: 40px;
+      width: 40px;
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    .bg-5 p {
+      padding-left: 50px;
+      font-family: 'Open Sans';
+      font-size: 25px !important;
+      color: white;
+      line-height: 1.5;
+      text-align: left;
+  }
+  .bg-5 h6 {
+    padding-left: 50px;
+    font-family: 'Open Sans';
+    font-size: 25px !important;
+    color: white;
+    line-height: 1.2;
+    text-align: justify;
+  }
+    .bg-5 .btn-default {
+      color: white;
+      font-family: 'Open Sans';
+      font-size: 20px !important;
+      font-weight: normal !important;
+      background: transparent;
+      border-color: white;
+      border: 2px solid;
+    }
     .btn-4:hover, .btn-4:focus .btn-4:active {
       color: white;
       font-size: 15px !important;
@@ -1192,6 +1271,12 @@ footer {
       width: 100% !important;
       height: 100% !important;
       overflow: hidden !important;
+    }
+    footer{
+      background-color: 121212;
+      background-attachment: fixed;
+      background-position: top left;
+      padding-bottom: 10px;
     }
   Footer li {
     display: inline-block;
